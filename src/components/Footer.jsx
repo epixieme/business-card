@@ -1,9 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
-import { faFacebook} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faLinkedin,faGitSquare } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 
@@ -14,7 +12,7 @@ function Footer() {
     <ul className='smedia-icons'>
         <li><a href="https://twitter.com/epixieme" target="_blank"><FontAwesomeIcon icon={faTwitter} size="3x"/></a></li>
         <li><a href="https://www.linkedin.com/in/kirstiehayes/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="3x"/></a></li>
-        <li><a href="mailto:kirstie.l.hayes@googlemail.com" target="_blank"><FontAwesomeIcon icon={faFacebook} size="3x"/></a></li>
+        <li><a href="https://github.com/epixieme" target="_blank"><FontAwesomeIcon icon={faGitSquare} size="3x"/></a></li>
         <li><a href="mailto:kirstie.l.hayes@googlemail.com"><FontAwesomeIcon icon={faEnvelope} size="3x"/></a></li>
     </ul>
     </div>
