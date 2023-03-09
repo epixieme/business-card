@@ -12,9 +12,9 @@ function Footer() {
     
     <div className='footer'>
     <ul className='smedia-icons'>
-        <li><a href="https://twitter.com/epixieme"><FontAwesomeIcon icon={faTwitter} size="3x"/></a></li>
-        <li><a href="https://www.linkedin.com/in/kirstiehayes/"><FontAwesomeIcon icon={faLinkedin} size="3x"/></a></li>
-        <li><a href="mailto:kirstie.l.hayes@googlemail.com"><FontAwesomeIcon icon={faFacebook} size="3x"/></a></li>
+        <li><a href="https://twitter.com/epixieme" target="_blank"><FontAwesomeIcon icon={faTwitter} size="3x"/></a></li>
+        <li><a href="https://www.linkedin.com/in/kirstiehayes/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="3x"/></a></li>
+        <li><a href="mailto:kirstie.l.hayes@googlemail.com" target="_blank"><FontAwesomeIcon icon={faFacebook} size="3x"/></a></li>
         <li><a href="mailto:kirstie.l.hayes@googlemail.com"><FontAwesomeIcon icon={faEnvelope} size="3x"/></a></li>
     </ul>
     </div>
